@@ -1,0 +1,4114 @@
+{
+  "categories": [
+    {
+      "id": "fashion",
+      "name": "Fashion",
+      "slug": "fashion",
+      "icon": "shirt",
+      "description": "Premium apparel, activewear, and trendsetting daily wear.",
+      "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 8,
+      "featuredDiscount": "Up to 25% OFF with 5km Run"
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "slug": "electronics",
+      "icon": "headphones",
+      "description": "Wireless audio, smart wearables, and smart lifestyle devices.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 7,
+      "featuredDiscount": "15% OFF with 7-Day Walking Streak"
+    },
+    {
+      "id": "skincare-beauty",
+      "name": "Skincare & Beauty",
+      "slug": "skincare-beauty",
+      "icon": "sparkles",
+      "description": "Organic botanicals, serums, sun mists, and skin repair kits.",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 6,
+      "featuredDiscount": "20% OFF with 3-Day Workout Streak"
+    },
+    {
+      "id": "sports-sportswear",
+      "name": "Sports & Sportswear",
+      "slug": "sports-sportswear",
+      "icon": "activity",
+      "description": "Moisture-wicking tops, compression gear, and training shorts.",
+      "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 6,
+      "featuredDiscount": "15% OFF with 10k Steps"
+    },
+    {
+      "id": "footwear",
+      "name": "Footwear",
+      "slug": "footwear",
+      "icon": "footprints",
+      "description": "Carbon-plate marathon racers, cushioned runners, and lifestyle sneakers.",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 7,
+      "featuredDiscount": "20% OFF with 5km Run Challenge"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "icon": "watch",
+      "description": "GPS smartwatches, UV polarized shades, and insulated thermal flasks.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 6,
+      "featuredDiscount": "15% OFF with 20km Cycling"
+    },
+    {
+      "id": "home-lifestyle",
+      "name": "Home & Lifestyle",
+      "slug": "home-lifestyle",
+      "icon": "home",
+      "description": "Ultrasonic diffusers, ergonomic posture cushions, and organic bedding.",
+      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 5,
+      "featuredDiscount": "10% OFF with 5-Day Walking Streak"
+    },
+    {
+      "id": "health-wellness",
+      "name": "Health & Wellness",
+      "slug": "health-wellness",
+      "icon": "heart-pulse",
+      "description": "Clean plant proteins, omega-3 softgels, and daily multivitamins.",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 6,
+      "featuredDiscount": "15% OFF with 45-min Gym Workout"
+    },
+    {
+      "id": "fitness-products",
+      "name": "Fitness Products",
+      "slug": "fitness-products",
+      "icon": "dumbbell",
+      "description": "Adjustable dumbbells, grip trainers, resistance kits, and yoga mats.",
+      "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 6,
+      "featuredDiscount": "20% OFF with 30k Steps Challenge"
+    },
+    {
+      "id": "grocery",
+      "name": "Grocery & Essentials",
+      "slug": "grocery",
+      "icon": "shopping-bag",
+      "description": "Raw organic forest honey, gourmet dry fruits, and ceremonial matcha.",
+      "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=600&q=80",
+      "itemCount": 5,
+      "featuredDiscount": "10% OFF with Daily 5k Steps"
+    }
+  ],
+  "brands": [
+    {
+      "id": "b-stepz",
+      "name": "Stepz Footwear",
+      "tagline": "Performance footwear engineered for every stride.",
+      "category": "Footwear",
+      "logo": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 24,
+      "activeOffers": 8,
+      "rating": 4.9,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Stepz is an emerging performance shoe lab crafting ultralight nitrogen-infused carbon running shoes and recovery walkers."
+    },
+    {
+      "id": "b-movefit",
+      "name": "MoveFit Activewear",
+      "tagline": "Comfort-first activewear built for movement.",
+      "category": "Sports & Sportswear",
+      "logo": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 18,
+      "activeOffers": 6,
+      "rating": 4.8,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Seamless, moisture-wicking and eco-conscious apparel engineered to keep you cool across high-intensity training."
+    },
+    {
+      "id": "b-urbansports",
+      "name": "Urban Sports",
+      "tagline": "Training essentials for the modern athlete.",
+      "category": "Sports & Sportswear",
+      "logo": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 16,
+      "activeOffers": 5,
+      "rating": 4.7,
+      "isEmerging": false,
+      "verified": true,
+      "description": "A high-performance athletics brand designing gear, compression layers, and training essentials."
+    },
+    {
+      "id": "b-novatech",
+      "name": "NovaTech Audio",
+      "tagline": "Precision acoustics for active lifestyles.",
+      "category": "Electronics",
+      "logo": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 14,
+      "activeOffers": 4,
+      "rating": 4.9,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Next-generation spatial audio earbuds and IPX8 sweatproof headsets tailored for runners and audiophiles."
+    },
+    {
+      "id": "b-glowbotanic",
+      "name": "GlowBotanic",
+      "tagline": "Pure botanicals for radiant, resilient skin.",
+      "category": "Skincare & Beauty",
+      "logo": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 12,
+      "activeOffers": 4,
+      "rating": 4.8,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Plant-powered, dermatologist-backed skincare formulations designed to hydrate and revitalize active skin."
+    },
+    {
+      "id": "b-urbanthreads",
+      "name": "Urban Threads",
+      "tagline": "Effortless casual elegance for city life.",
+      "category": "Fashion",
+      "logo": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 20,
+      "activeOffers": 5,
+      "rating": 4.7,
+      "isEmerging": false,
+      "verified": true,
+      "description": "Modern urban tailoring, breathable linen weaves, and premium wardrobe staples."
+    },
+    {
+      "id": "b-nutrivita",
+      "name": "NutriVita Organics",
+      "tagline": "Clean nutrition. Pure energy. Zero fillers.",
+      "category": "Health & Wellness",
+      "logo": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 15,
+      "activeOffers": 6,
+      "rating": 4.9,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Certified organic protein powders, wild-harvested adaptogens, and essential daily wellness blends."
+    },
+    {
+      "id": "b-chronofit",
+      "name": "ChronoFit Gear",
+      "tagline": "Precision biometrics at your wrist.",
+      "category": "Accessories",
+      "logo": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 10,
+      "activeOffers": 4,
+      "rating": 4.8,
+      "isEmerging": true,
+      "verified": true,
+      "description": "AMOLED GPS multi-sport smartwatches with 14-day battery life and seamless heart rate sync."
+    },
+    {
+      "id": "b-poweriron",
+      "name": "PowerIron Labs",
+      "tagline": "Heavy-duty strength equipment for home and gym.",
+      "category": "Fitness Products",
+      "logo": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 12,
+      "activeOffers": 5,
+      "rating": 4.9,
+      "isEmerging": false,
+      "verified": true,
+      "description": "Precision-machined cast-iron adjustable dumbbells, power racks, and olympic barbell systems."
+    },
+    {
+      "id": "b-farmfresh",
+      "name": "FarmFresh Naturals",
+      "tagline": "Wholesome superfoods direct from pristine farms.",
+      "category": "Grocery & Essentials",
+      "logo": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 14,
+      "activeOffers": 4,
+      "rating": 4.9,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Single-origin raw forest honey, cold-pressed cold-extracted oils, and slow-roasted almonds."
+    },
+    {
+      "id": "b-ecoliving",
+      "name": "EcoLiving Home",
+      "tagline": "Sustainable comfort for modern spaces.",
+      "category": "Home & Lifestyle",
+      "logo": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 11,
+      "activeOffers": 3,
+      "rating": 4.7,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Ergonomic living essentials, bamboo fiber bedding, and ambient ultrasonic home diffusers."
+    },
+    {
+      "id": "b-coresculpt",
+      "name": "CoreSculpt",
+      "tagline": "Mindful movement and holistic balance.",
+      "category": "Fitness Products",
+      "logo": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 9,
+      "activeOffers": 3,
+      "rating": 4.8,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Non-slip eco rubber yoga mats, cork blocks, and posture rehabilitation accessories."
+    },
+    {
+      "id": "b-aeroapparel",
+      "name": "AeroApparel",
+      "tagline": "Featherweight performance technical wear.",
+      "category": "Fashion",
+      "logo": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 15,
+      "activeOffers": 4,
+      "rating": 4.8,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Minimalist technical garments combining Japanese weather-resistant weaves with relaxed European tailoring."
+    },
+    {
+      "id": "b-pureclean",
+      "name": "PureClean Botanical",
+      "tagline": "Gentle, potent science for active recovery skin.",
+      "category": "Skincare & Beauty",
+      "logo": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 14,
+      "activeOffers": 5,
+      "rating": 4.9,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Non-stripping amino acid cleansers, soothing cica gels, and peptide complexes for sweaty and sensitive skin."
+    },
+    {
+      "id": "b-zenithaudio",
+      "name": "Zenith Acoustics",
+      "tagline": "Studio sound wherever your feet take you.",
+      "category": "Electronics",
+      "logo": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 12,
+      "activeOffers": 3,
+      "rating": 4.7,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Bone conduction open-ear audio, titanium sport headphones, and sweat-sealed wireless monitors."
+    },
+    {
+      "id": "b-trailmaster",
+      "name": "TrailMaster Footwear",
+      "tagline": "Rugged grip. Unstoppable mountain performance.",
+      "category": "Footwear",
+      "logo": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 16,
+      "activeOffers": 5,
+      "rating": 4.9,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Vibram Megagrip lugged trail running shoes and waterproof fast-hiking hybrid footwear."
+    },
+    {
+      "id": "b-solguard",
+      "name": "SolGuard Optics",
+      "tagline": "Crystal vision under the brightest sun.",
+      "category": "Accessories",
+      "logo": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 10,
+      "activeOffers": 3,
+      "rating": 4.8,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Ultra-lightweight TR90 polarized sports sunglasses designed for cycling sprints and marathon courses."
+    },
+    {
+      "id": "b-greenroots",
+      "name": "GreenRoots Superfoods",
+      "tagline": "Organic nutrients harvested in harmony with nature.",
+      "category": "Grocery & Essentials",
+      "logo": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 18,
+      "activeOffers": 6,
+      "rating": 4.9,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Raw chia seeds, cold-pressed Greek extra virgin olive oil, and ancient grain breakfast clusters."
+    },
+    {
+      "id": "b-ergomind",
+      "name": "ErgoMind Living",
+      "tagline": "Smart ergonomic living designed for active minds.",
+      "category": "Home & Lifestyle",
+      "logo": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 12,
+      "activeOffers": 4,
+      "rating": 4.7,
+      "isEmerging": true,
+      "verified": true,
+      "description": "Adjustable standing desk balance boards, high-density lumbar supports, and temperature-controlled drinkware."
+    },
+    {
+      "id": "b-gripzone",
+      "name": "GripZone Athletics",
+      "tagline": "Peak athletic accessories and conditioning tools.",
+      "category": "Fitness Products",
+      "logo": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=120&q=80",
+      "banner": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80",
+      "productCount": 14,
+      "activeOffers": 5,
+      "rating": 4.8,
+      "isEmerging": true,
+      "verified": true,
+      "description": "High-durability latex resistance loop bands, steel bearing jump ropes, and ergonomic gym lifting grips."
+    }
+  ],
+  "fitnessOffers": [
+    {
+      "id": "off-run20",
+      "couponCode": "RUN20",
+      "title": "3-Day Running Challenge",
+      "activityType": "RUNNING",
+      "activityIcon": "flame",
+      "requirementText": "Run 5 km per day for 3 days",
+      "dailyTarget": 5,
+      "unit": "km",
+      "totalDays": 3,
+      "discountPercent": 20,
+      "expiresInSeconds": 172800,
+      "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+    },
+    {
+      "id": "off-walk15",
+      "couponCode": "WALK15",
+      "title": "5-Day Walking Streak",
+      "activityType": "WALKING",
+      "activityIcon": "footprints",
+      "requirementText": "5,000 steps per day for 5 days",
+      "dailyTarget": 5000,
+      "unit": "steps",
+      "totalDays": 5,
+      "discountPercent": 15,
+      "expiresInSeconds": 259200,
+      "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+    },
+    {
+      "id": "off-cycle10",
+      "couponCode": "CYCLE10",
+      "title": "3-Day Cycling Challenge",
+      "activityType": "CYCLING",
+      "activityIcon": "bike",
+      "requirementText": "Cycle 15 km per day for 3 days",
+      "dailyTarget": 15,
+      "unit": "km",
+      "totalDays": 3,
+      "discountPercent": 10,
+      "expiresInSeconds": 172800,
+      "description": "Pedal your way to savings! Complete 15 km daily rides to unlock a 10% discount coupon."
+    },
+    {
+      "id": "off-hiit18",
+      "couponCode": "HIIT18",
+      "title": "4-Day Gym & HIIT Challenge",
+      "activityType": "GYM",
+      "activityIcon": "dumbbell",
+      "requirementText": "45-minute gym or workout session for 4 days",
+      "dailyTarget": 45,
+      "unit": "mins",
+      "totalDays": 4,
+      "discountPercent": 18,
+      "expiresInSeconds": 216000,
+      "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+    },
+    {
+      "id": "off-step10",
+      "couponCode": "STEP10",
+      "title": "Daily 10k Step Challenge",
+      "activityType": "WALKING",
+      "activityIcon": "trending-up",
+      "requirementText": "10,000 steps in a single day",
+      "dailyTarget": 10000,
+      "unit": "steps",
+      "totalDays": 1,
+      "discountPercent": 10,
+      "expiresInSeconds": 86400,
+      "description": "Hit your 10,000 step milestone today to immediately unlock an instant 10% discount coupon."
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-2",
+      "name": "CloudGlide Daily Walking Sneakers",
+      "brandId": "b-stepz",
+      "brandName": "Stepz Footwear",
+      "category": "footwear",
+      "categoryName": "Footwear",
+      "subcategory": "Walking Shoes",
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 3499,
+      "fitnessDiscountPercent": 20,
+      "fitnessRequirement": "Run 5 km per day for 3 days",
+      "activityType": "STREAK",
+      "offerId": "off-2",
+      "rating": 4.8,
+      "reviewsCount": 192,
+      "stock": 43,
+      "sku": "STP-CGD-02",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Ultra-cushioned anatomical walking sneaker with memory arch support designed for 15,000+ daily steps without fatigue.",
+      "specs": {
+        "Cushioning": "Max Soft Foam",
+        "Closure": "Stretch Slip-On with Lacing",
+        "Outsole": "Anti-abrasion rubber",
+        "Arch": "Ergonomic OrthoLite"
+      },
+      "availableOfferIds": [
+        "off-run20",
+        "off-walk15",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-run20",
+        "couponCode": "RUN20",
+        "title": "3-Day Running Challenge",
+        "activityType": "RUNNING",
+        "activityIcon": "flame",
+        "requirementText": "Run 5 km per day for 3 days",
+        "dailyTarget": 5,
+        "unit": "km",
+        "totalDays": 3,
+        "discountPercent": 20,
+        "expiresInSeconds": 172800,
+        "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+      },
+      "couponCode": "RUN20"
+    },
+    {
+      "id": "prod-3",
+      "name": "Pulse Pro ANC Wireless Earbuds",
+      "brandId": "b-novatech",
+      "brandName": "NovaTech Audio",
+      "category": "electronics",
+      "categoryName": "Electronics",
+      "subcategory": "Audio & Headphones",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 4499,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.9,
+      "reviewsCount": 312,
+      "stock": 24,
+      "sku": "NOV-PLS-03",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Active Noise Cancellation earbuds with transparency mode, secure wingtip fit for sprinters, and 36-hour battery backup with wireless charging.",
+      "specs": {
+        "Noise Cancellation": "Hybrid ANC up to 42dB",
+        "Battery": "8 hrs + 28 hrs case",
+        "Water Resistance": "IPX7 Sweatproof",
+        "Bluetooth": "5.3 Low Latency"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-4",
+      "name": "Apex 4K Action Camera with Gimbal Stabilizer",
+      "brandId": "b-novatech",
+      "brandName": "NovaTech Audio",
+      "category": "electronics",
+      "categoryName": "Electronics",
+      "subcategory": "Wearable Cameras",
+      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 8999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "CYCLING",
+      "offerId": "off-4",
+      "rating": 4.7,
+      "reviewsCount": 86,
+      "stock": 14,
+      "sku": "NOV-APX-04",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Capture crystal clear 4K 60fps cycling journeys and trail runs with 6-axis hyper-smooth gyro stabilization and waterproof housing.",
+      "specs": {
+        "Resolution": "4K@60fps, 1080p@240fps",
+        "Stabilization": "6-Axis HyperGyro",
+        "Waterproof": "Up to 15m without case",
+        "Screen": "Dual Color Touchscreens"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-5",
+      "name": "Botanical Sun Mist SPF 50+ PA++++",
+      "brandId": "b-glowbotanic",
+      "brandName": "GlowBotanic",
+      "category": "skincare-beauty",
+      "categoryName": "Skincare & Beauty",
+      "subcategory": "Suncare",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1299,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "GYM",
+      "offerId": "off-5",
+      "rating": 4.8,
+      "reviewsCount": 164,
+      "stock": 52,
+      "sku": "GLW-SUN-05",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Ultra-light invisible outdoor sunscreen mist with green tea extract, hyaluronic acid, and zero white cast. Perfect for runners and cyclists.",
+      "specs": {
+        "Volume": "100 ml",
+        "SPF": "50+ Broad Spectrum",
+        "Finish": "Matte Invisible Non-Greasy",
+        "Skin Type": "All Skin Types including sensitive"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-6",
+      "name": "RoseGold Overnight Repair Barrier Cream",
+      "brandId": "b-glowbotanic",
+      "brandName": "GlowBotanic",
+      "category": "skincare-beauty",
+      "categoryName": "Skincare & Beauty",
+      "subcategory": "Moisturizers",
+      "image": "https://images.unsplash.com/photo-1608248597359-2e06f9d6517a?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1899,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.9,
+      "reviewsCount": 98,
+      "stock": 30,
+      "sku": "GLW-RCR-06",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "Infused with 5 ceramides, peptides, and botanical damask rose water to lock in deep hydration and rebuild the moisture barrier overnight.",
+      "specs": {
+        "Volume": "50 g",
+        "Key Actives": "5 Ceramides, Peptides, Niacinamide",
+        "Cruelty Free": "Yes, 100% Vegan",
+        "Country": "Made in India"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-7",
+      "name": "Breeze Pure Linen Casual Shirt",
+      "brandId": "b-urbanthreads",
+      "brandName": "Urban Threads",
+      "category": "fashion",
+      "categoryName": "Fashion",
+      "subcategory": "Men's Apparel",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2499,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "STREAK",
+      "offerId": "off-2",
+      "rating": 4.7,
+      "reviewsCount": 142,
+      "stock": 27,
+      "sku": "UBT-LIN-07",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Crafted from 100% French flax linen for supreme breathability during warm days. Pre-washed for soft textured drape and classic resort collar.",
+      "specs": {
+        "Fabric": "100% Pure Flax Linen",
+        "Fit": "Relaxed Tailored",
+        "Collar": "Cuban Camp Collar",
+        "Care": "Gentle Machine Wash"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-8",
+      "name": "Luxe Stretch Denim Jacket",
+      "brandId": "b-urbanthreads",
+      "brandName": "Urban Threads",
+      "category": "fashion",
+      "categoryName": "Fashion",
+      "subcategory": "Jackets",
+      "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 3999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-3",
+      "rating": 4.8,
+      "reviewsCount": 77,
+      "stock": 18,
+      "sku": "UBT-DNM-08",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Vintage washed authentic selvedge denim woven with 2% elastane for unrestricted all-day mobility and timeless modern style.",
+      "specs": {
+        "Material": "98% Cotton, 2% Spandex",
+        "Pockets": "4 Exterior, 2 Concealed Interior",
+        "Finish": "Vintage Enzyme Stone Wash"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-9",
+      "name": "AeroFit Seamless Moisture-Wicking Tee",
+      "brandId": "b-movefit",
+      "brandName": "MoveFit Activewear",
+      "category": "sports-sportswear",
+      "categoryName": "Sports & Sportswear",
+      "subcategory": "Active Tops",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1499,
+      "fitnessDiscountPercent": 20,
+      "fitnessRequirement": "Run 5 km per day for 3 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.9,
+      "reviewsCount": 284,
+      "stock": 60,
+      "sku": "MVF-AFT-09",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Ultralight seamless engineered knit with micro-ventilation zones mapped across chest and back for zero chafing on long training runs.",
+      "specs": {
+        "Fabric": "88% Recycled Poly, 12% Spandex",
+        "Weight": "115 GSM",
+        "Anti-Odor": "Silver-Ion Treated",
+        "Reflective": "360-Degree Accents"
+      },
+      "availableOfferIds": [
+        "off-run20",
+        "off-walk15",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-run20",
+        "couponCode": "RUN20",
+        "title": "3-Day Running Challenge",
+        "activityType": "RUNNING",
+        "activityIcon": "flame",
+        "requirementText": "Run 5 km per day for 3 days",
+        "dailyTarget": 5,
+        "unit": "km",
+        "totalDays": 3,
+        "discountPercent": 20,
+        "expiresInSeconds": 172800,
+        "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+      },
+      "couponCode": "RUN20"
+    },
+    {
+      "id": "prod-10",
+      "name": "FlexDry High-Waist Compression Tights",
+      "brandId": "b-movefit",
+      "brandName": "MoveFit Activewear",
+      "category": "sports-sportswear",
+      "categoryName": "Sports & Sportswear",
+      "subcategory": "Tights & Leggings",
+      "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2199,
+      "fitnessDiscountPercent": 20,
+      "fitnessRequirement": "Run 5 km per day for 3 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.8,
+      "reviewsCount": 178,
+      "stock": 42,
+      "sku": "MVF-FDC-10",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Squat-proof 4-way stretch fabric with ergonomic graduated compression to support hamstrings and calves, plus dual side drop-in phone pockets.",
+      "specs": {
+        "Compression": "Medium-High Graduated",
+        "Waist": "Ribbed Stay-Put High Waistband",
+        "Pockets": "Dual Deep Phone Pockets",
+        "Opacity": "100% Non-See Through Guaranteed"
+      },
+      "availableOfferIds": [
+        "off-run20",
+        "off-walk15",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-run20",
+        "couponCode": "RUN20",
+        "title": "3-Day Running Challenge",
+        "activityType": "RUNNING",
+        "activityIcon": "flame",
+        "requirementText": "Run 5 km per day for 3 days",
+        "dailyTarget": 5,
+        "unit": "km",
+        "totalDays": 3,
+        "discountPercent": 20,
+        "expiresInSeconds": 172800,
+        "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+      },
+      "couponCode": "RUN20"
+    },
+    {
+      "id": "prod-11",
+      "name": "ChronoFit Pro Titanium Smartwatch",
+      "brandId": "b-chronofit",
+      "brandName": "ChronoFit Gear",
+      "category": "accessories",
+      "categoryName": "Accessories",
+      "subcategory": "Smart Wearables",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 7999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "CYCLING",
+      "offerId": "off-4",
+      "rating": 4.9,
+      "reviewsCount": 215,
+      "stock": 20,
+      "sku": "CRN-TI-11",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Aerospace titanium bezel with sapphire crystal glass, dual-frequency multi-GNSS tracking, VO2 max estimation, and 14 days battery life.",
+      "specs": {
+        "Display": "1.43-inch Ultra AMOLED Always-On",
+        "Battery": "14 Days Typical, 40 hrs GPS",
+        "Waterproof": "5 ATM / 50 meters",
+        "Sensors": "Heart Rate, SpO2, Skin Temp, Barometer"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-12",
+      "name": "HydroGuard 1000ml Thermal Stainless Flask",
+      "brandId": "b-chronofit",
+      "brandName": "ChronoFit Gear",
+      "category": "accessories",
+      "categoryName": "Accessories",
+      "subcategory": "Drinkware",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1299,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "GYM",
+      "offerId": "off-5",
+      "rating": 4.8,
+      "reviewsCount": 160,
+      "stock": 70,
+      "sku": "CRN-HYD-12",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "Double-wall vacuum insulation keeps ice cold for 24 hours or piping hot for 12 hours. Sweat-free powder coat with leakproof magnetic cap.",
+      "specs": {
+        "Capacity": "1000 ml",
+        "Material": "18/8 Pro-Grade Stainless Steel",
+        "Insulation": "Double-wall TempShield",
+        "BPA Free": "100% Food Grade"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-13",
+      "name": "Ultrasonic Aromatherapy Ambient Diffuser",
+      "brandId": "b-ecoliving",
+      "brandName": "EcoLiving Home",
+      "category": "home-lifestyle",
+      "categoryName": "Home & Lifestyle",
+      "subcategory": "Home Wellness",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2299,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.7,
+      "reviewsCount": 110,
+      "stock": 35,
+      "sku": "ECO-DIF-13",
+      "isFeatured": true,
+      "isTrending": false,
+      "description": "Whisper-quiet cool mist aroma diffuser crafted with handcrafted ceramic shell and soothing warm ambient amber glow for post-workout recovery.",
+      "specs": {
+        "Capacity": "350 ml",
+        "Coverage": "Up to 300 sq.ft.",
+        "Runtime": "10 hours continuous",
+        "Lighting": "7 Soft LED Ambient Tones"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-14",
+      "name": "Organic Bamboo Fiber 300TC Bedding Set",
+      "brandId": "b-ecoliving",
+      "brandName": "EcoLiving Home",
+      "category": "home-lifestyle",
+      "categoryName": "Home & Lifestyle",
+      "subcategory": "Bedding",
+      "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 4499,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "STREAK",
+      "offerId": "off-2",
+      "rating": 4.9,
+      "reviewsCount": 85,
+      "stock": 18,
+      "sku": "ECO-BAM-14",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Naturally cooling, hypoallergenic bamboo viscose sheets with silky sateen finish for optimal restorative sleep and muscle recovery.",
+      "specs": {
+        "Weave": "300 Thread Count Bamboo Sateen",
+        "Includes": "1 King Fitted, 1 Flat, 2 Pillowcases",
+        "Temperature": "Thermoregulating Breathable"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-15",
+      "name": "NutriVita 100% Plant Protein Powder (Chocolate 1kg)",
+      "brandId": "b-nutrivita",
+      "brandName": "NutriVita Organics",
+      "category": "health-wellness",
+      "categoryName": "Health & Wellness",
+      "subcategory": "Supplements",
+      "image": "https://images.unsplash.com/photo-1579722820308-d74e571900a9?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2999,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "WALKING",
+      "offerId": "off-3",
+      "rating": 4.9,
+      "reviewsCount": 420,
+      "stock": 65,
+      "sku": "NUT-PRT-15",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "25g complete protein per scoop sourced from organic yellow pea and brown rice, enriched with plant digestive enzymes and zero added sugars.",
+      "specs": {
+        "Protein Per Serve": "25 grams",
+        "BCAAs": "5.2 grams",
+        "Flavor": "Raw Belgian Cocoa",
+        "Certification": "Certified Organic & Heavy-Metal Tested"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-16",
+      "name": "Triple Strength Wild Fish Oil Omega-3 Softgels (90ct)",
+      "brandId": "b-nutrivita",
+      "brandName": "NutriVita Organics",
+      "category": "health-wellness",
+      "categoryName": "Health & Wellness",
+      "subcategory": "Vitamins & Supplements",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1499,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.8,
+      "reviewsCount": 230,
+      "stock": 48,
+      "sku": "NUT-OMG-16",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "Molecularly distilled pharmaceutical grade omega-3 with 1200mg EPA + DHA per serving for joint mobility, cardiovascular health, and focus.",
+      "specs": {
+        "EPA": "800 mg",
+        "DHA": "400 mg",
+        "Burp Free": "Enteric Coated Lemon Flavor",
+        "Count": "90 Softgels (3 Month Supply)"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-17",
+      "name": "PowerIron Quick-Select Adjustable Dumbbells (Pair 24kg)",
+      "brandId": "b-poweriron",
+      "brandName": "PowerIron Labs",
+      "category": "fitness-products",
+      "categoryName": "Fitness Products",
+      "subcategory": "Strength Equipment",
+      "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 14999,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "CYCLING",
+      "offerId": "off-4",
+      "rating": 4.9,
+      "reviewsCount": 188,
+      "stock": 12,
+      "sku": "PWR-DBL-17",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Replaces 15 pairs of dumbbells with a single turn of the precision selector dial. Adjusts from 2.5kg to 24kg with laser-cut steel plates.",
+      "specs": {
+        "Weight Range": "2.5 kg to 24 kg per dumbbell",
+        "Increments": "15 weight settings",
+        "Material": "Steel cores with silent nylon molding",
+        "Base Tray": "Included"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-18",
+      "name": "CoreSculpt Premium Alignment Yoga Mat 6mm",
+      "brandId": "b-coresculpt",
+      "brandName": "CoreSculpt",
+      "category": "fitness-products",
+      "categoryName": "Fitness Products",
+      "subcategory": "Yoga & Pilates",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2499,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "CYCLING",
+      "offerId": "off-4",
+      "rating": 4.8,
+      "reviewsCount": 140,
+      "stock": 35,
+      "sku": "COR-YGA-18",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Eco-friendly non-slip tree rubber with laser-engraved central posture guidelines. Optimal 6mm joint cushioning for high-intensity yoga flows.",
+      "specs": {
+        "Thickness": "6 mm High Density",
+        "Material": "Natural Organic Tree Rubber + PU",
+        "Dimensions": "183 cm x 68 cm (Extra Long & Wide)",
+        "Strap": "Free cotton carry strap included"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-19",
+      "name": "FarmFresh Single-Origin Wild Raw Honey (500g)",
+      "brandId": "b-farmfresh",
+      "brandName": "FarmFresh Naturals",
+      "category": "grocery",
+      "categoryName": "Grocery & Essentials",
+      "subcategory": "Organic Pantry",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 799,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "GYM",
+      "offerId": "off-5",
+      "rating": 4.9,
+      "reviewsCount": 194,
+      "stock": 80,
+      "sku": "FRM-HNY-19",
+      "isFeatured": true,
+      "isTrending": false,
+      "description": "Unpasteurized, unprocessed multifloral honey harvested sustainably from deep Himalayan wild beehives with natural pollen and enzymes intact.",
+      "specs": {
+        "Net Weight": "500 grams in glass jar",
+        "Processing": "100% Raw, Unheated, Unfiltered",
+        "Source": "Himalayan Foothills",
+        "Additives": "Zero added sugar or invert syrup"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-20",
+      "name": "Slow-Roasted California Jumbo Almonds (1kg)",
+      "brandId": "b-farmfresh",
+      "brandName": "FarmFresh Naturals",
+      "category": "grocery",
+      "categoryName": "Grocery & Essentials",
+      "subcategory": "Nuts & Superfoods",
+      "image": "https://images.unsplash.com/photo-1508061252445-5350f3ab0a55?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1299,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.8,
+      "reviewsCount": 150,
+      "stock": 55,
+      "sku": "FRM-ALM-20",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Crunchy jumbo kernel almonds dry roasted without any oil. Packed with plant protein, vitamin E, and natural energy for active mornings.",
+      "specs": {
+        "Net Weight": "1 kg Re-sealable pouch",
+        "Type": "Non-GMO California Jumbo",
+        "Salt": "Unsalted / Light Pink Salt",
+        "Shelf Life": "9 Months"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-21",
+      "name": "Urban Elite Weatherproof Commuter Backpack 28L",
+      "brandId": "b-urbansports",
+      "brandName": "Urban Sports",
+      "category": "accessories",
+      "categoryName": "Accessories",
+      "subcategory": "Bags & Backpacks",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 3299,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.8,
+      "reviewsCount": 94,
+      "stock": 26,
+      "sku": "UBS-BPK-21",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Ergonomic waterproof roll-top pack featuring dedicated 16-inch fleece laptop compartment, shoe vent pouch, and hidden passport security pocket.",
+      "specs": {
+        "Capacity": "28 Liters",
+        "Material": "Cordura 900D Ballistic Nylon",
+        "Laptop Sleeve": "Fits up to 16-inch MacBook Pro",
+        "Rain Cover": "Built-in hidden deployable rain fly"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-22",
+      "name": "SonicWave Splash IPX8 Bluetooth Speaker",
+      "brandId": "b-novatech",
+      "brandName": "NovaTech Audio",
+      "category": "electronics",
+      "categoryName": "Electronics",
+      "subcategory": "Portable Audio",
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.7,
+      "reviewsCount": 115,
+      "stock": 32,
+      "sku": "NOV-SPK-22",
+      "isFeatured": true,
+      "isTrending": false,
+      "description": "Punchy 360-degree bass with dual passive radiators, 20W power output, floatable waterproof chassis, and rugged silicone bumper.",
+      "specs": {
+        "Power": "20W RMS",
+        "Battery": "16 Hours playtime",
+        "Waterproof": "IPX8 (Can submerge in pool)",
+        "Pairing": "True Wireless Stereo Multi-Sync"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-23",
+      "name": "Ceremonial Grade Uji Matcha Green Tea 100g",
+      "brandId": "b-farmfresh",
+      "brandName": "FarmFresh Naturals",
+      "category": "grocery",
+      "categoryName": "Grocery & Essentials",
+      "subcategory": "Specialty Beverages",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1899,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-3",
+      "rating": 4.9,
+      "reviewsCount": 82,
+      "stock": 40,
+      "sku": "FRM-MTC-23",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "First harvest shade-grown Japanese green tea stone ground into microscopic vibrant emerald powder. Rich in L-theanine for sustained calm focus.",
+      "specs": {
+        "Origin": "Uji, Kyoto, Japan",
+        "Grade": "100% First Spring Harvest Ceremonial",
+        "Weight": "100 grams sealed tin",
+        "Caffeine": "Clean sustained boost without crash"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-24",
+      "name": "Nordic Pure Merino Wool Zip Cardigan",
+      "brandId": "b-urbanthreads",
+      "brandName": "Urban Threads",
+      "category": "fashion",
+      "categoryName": "Fashion",
+      "subcategory": "Knitwear",
+      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 4999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-3",
+      "rating": 4.9,
+      "reviewsCount": 68,
+      "stock": 16,
+      "sku": "UBT-WOL-24",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Spun from 19.5-micron extra-fine Australian Merino wool. Naturally odor-resistant, luxuriously soft against skin, and ribbed cuffs.",
+      "specs": {
+        "Yarn": "100% Extra-fine Merino Wool",
+        "Zipper": "Dual-way Antique YKK Metal",
+        "Gauge": "7-Gauge Heavy Knit"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-25",
+      "name": "AeroVent Minimalist Windbreaker Jacket",
+      "brandId": "b-aeroapparel",
+      "brandName": "AeroApparel",
+      "category": "fashion",
+      "categoryName": "Fashion",
+      "subcategory": "Outerwear",
+      "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 3499,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.8,
+      "reviewsCount": 88,
+      "stock": 30,
+      "sku": "AER-WND-25",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Packs down into its own chest pocket. Ultra-dense Japanese ripstop fabric sheds wind and light drizzles without trapping body heat.",
+      "specs": {
+        "Weight": "110g",
+        "Water Resistance": "DWR Coated",
+        "Packable": "Yes, Chest Pocket"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-26",
+      "name": "UrbanRelax Tailored Tech Joggers",
+      "brandId": "b-urbanthreads",
+      "brandName": "Urban Threads",
+      "category": "fashion",
+      "categoryName": "Fashion",
+      "subcategory": "Pants",
+      "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2799,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "STREAK",
+      "offerId": "off-2",
+      "rating": 4.7,
+      "reviewsCount": 105,
+      "stock": 38,
+      "sku": "UBT-JOG-26",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "Sophisticated tapered silhouette tailored from 4-way stretch double-knit tech fleece. Concealed zip pockets for secure phone transit.",
+      "specs": {
+        "Material": "72% Cotton, 23% Polyester, 5% Spandex",
+        "Waist": "Drawcord Elastic",
+        "Pockets": "3 Zip Pockets"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-27",
+      "name": "Zenith OpenPulse Bone Conduction Sports Headphones",
+      "brandId": "b-zenithaudio",
+      "brandName": "Zenith Acoustics",
+      "category": "electronics",
+      "categoryName": "Electronics",
+      "subcategory": "Audio & Headphones",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 5999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "CYCLING",
+      "offerId": "off-4",
+      "rating": 4.9,
+      "reviewsCount": 146,
+      "stock": 22,
+      "sku": "ZEN-BNC-27",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Keep ears completely open to city traffic and nature while listening to music. Titanium wraparound band with IP67 waterproof rating.",
+      "specs": {
+        "Battery": "10 Hours",
+        "Waterproof": "IP67 Sweat & Rainproof",
+        "Weight": "29 grams"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-28",
+      "name": "Lumos Smart Ambient Desk & Reading Lamp",
+      "brandId": "b-novatech",
+      "brandName": "NovaTech Audio",
+      "category": "electronics",
+      "categoryName": "Electronics",
+      "subcategory": "Smart Home",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 3299,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "STREAK",
+      "offerId": "off-2",
+      "rating": 4.8,
+      "reviewsCount": 92,
+      "stock": 25,
+      "sku": "NOV-LUM-28",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Flicker-free circadian lighting that mimics natural sunlight patterns. Wireless phone charging base and smartphone app control.",
+      "specs": {
+        "Brightness": "1000 Lumens",
+        "Color Temp": "2700K - 6500K",
+        "Charging Pad": "15W Qi Fast Charge"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-29",
+      "name": "PureClean Centella Soothing Cleansing Gel (200ml)",
+      "brandId": "b-pureclean",
+      "brandName": "PureClean Botanical",
+      "category": "skincare-beauty",
+      "categoryName": "Skincare & Beauty",
+      "subcategory": "Cleansers",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 899,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.9,
+      "reviewsCount": 210,
+      "stock": 75,
+      "sku": "PUR-CLN-29",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Low pH 5.5 non-foaming gentle jelly cleanser formulated with 80% Madagascar Centella Asiatica to wash away sweat without stripping skin.",
+      "specs": {
+        "Volume": "200 ml",
+        "pH Level": "5.5 Balanced",
+        "Sulfate Free": "Yes",
+        "Skin Type": "Sensitive / Acne-prone"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-30",
+      "name": "Triple Glow Hyaluronic + Niacinamide Serum",
+      "brandId": "b-glowbotanic",
+      "brandName": "GlowBotanic",
+      "category": "skincare-beauty",
+      "categoryName": "Skincare & Beauty",
+      "subcategory": "Serums",
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1699,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "GYM",
+      "offerId": "off-5",
+      "rating": 4.8,
+      "reviewsCount": 178,
+      "stock": 44,
+      "sku": "GLW-SRM-30",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Multimolecular hyaluronic acid penetrates deep dermal layers for bouncy hydration, while 10% pure Niacinamide refines enlarged pores.",
+      "specs": {
+        "Volume": "30 ml Glass Dropper",
+        "Actives": "10% Niacinamide, 2% Multi-HA, Zinc PCA"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-31",
+      "name": "TrailMaster Summit Waterproof Mountain Shoes",
+      "brandId": "b-trailmaster",
+      "brandName": "TrailMaster Footwear",
+      "category": "footwear",
+      "categoryName": "Footwear",
+      "subcategory": "Trail Shoes",
+      "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 5999,
+      "fitnessDiscountPercent": 20,
+      "fitnessRequirement": "Run 5 km per day for 3 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.9,
+      "reviewsCount": 112,
+      "stock": 20,
+      "sku": "TRM-SMT-31",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "5mm multidirectional Vibram lugs dig into wet mud and loose scree. Waterproof breathable membrane keeps socks dry through creek crossings.",
+      "specs": {
+        "Outsole": "Vibram Megagrip",
+        "Waterproofing": "HydroShield Membrane",
+        "Rock Plate": "Forefoot TPU Protection"
+      },
+      "availableOfferIds": [
+        "off-run20",
+        "off-walk15",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-run20",
+        "couponCode": "RUN20",
+        "title": "3-Day Running Challenge",
+        "activityType": "RUNNING",
+        "activityIcon": "flame",
+        "requirementText": "Run 5 km per day for 3 days",
+        "dailyTarget": 5,
+        "unit": "km",
+        "totalDays": 3,
+        "discountPercent": 20,
+        "expiresInSeconds": 172800,
+        "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+      },
+      "couponCode": "RUN20"
+    },
+    {
+      "id": "prod-32",
+      "name": "RecoverySlide Post-Run Ergonomic Mules",
+      "brandId": "b-stepz",
+      "brandName": "Stepz Footwear",
+      "category": "footwear",
+      "categoryName": "Footwear",
+      "subcategory": "Recovery Footwear",
+      "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1999,
+      "fitnessDiscountPercent": 20,
+      "fitnessRequirement": "Run 5 km per day for 3 days",
+      "activityType": "GYM",
+      "offerId": "off-5",
+      "rating": 4.8,
+      "reviewsCount": 165,
+      "stock": 50,
+      "sku": "STP-RCV-32",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Cradles high arches with ultra-plush resilient EVA foam. Promotes fast foot decompression and blood circulation after grueling workouts.",
+      "specs": {
+        "Arch Support": "Orthotic Deep Heel Cup",
+        "Washable": "100% Waterproof Machine Wash"
+      },
+      "availableOfferIds": [
+        "off-run20",
+        "off-walk15",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-run20",
+        "couponCode": "RUN20",
+        "title": "3-Day Running Challenge",
+        "activityType": "RUNNING",
+        "activityIcon": "flame",
+        "requirementText": "Run 5 km per day for 3 days",
+        "dailyTarget": 5,
+        "unit": "km",
+        "totalDays": 3,
+        "discountPercent": 20,
+        "expiresInSeconds": 172800,
+        "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+      },
+      "couponCode": "RUN20"
+    },
+    {
+      "id": "prod-33",
+      "name": "KineticPro 2-in-1 Running & Training Shorts",
+      "brandId": "b-urbansports",
+      "brandName": "Urban Sports",
+      "category": "sports-sportswear",
+      "categoryName": "Sports & Sportswear",
+      "subcategory": "Shorts",
+      "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1699,
+      "fitnessDiscountPercent": 20,
+      "fitnessRequirement": "Run 5 km per day for 3 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.7,
+      "reviewsCount": 134,
+      "stock": 48,
+      "sku": "UBS-KNT-33",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "Lightweight stretch outer short with supportive anti-chafing compression liner. Features concealed towel loop and zippered key pocket.",
+      "specs": {
+        "Inseam": "7 inch",
+        "Liner": "Built-in Anti-Chafe Compression",
+        "Phone Pocket": "Liner Drop-in Stash Pocket"
+      },
+      "availableOfferIds": [
+        "off-run20",
+        "off-walk15",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-run20",
+        "couponCode": "RUN20",
+        "title": "3-Day Running Challenge",
+        "activityType": "RUNNING",
+        "activityIcon": "flame",
+        "requirementText": "Run 5 km per day for 3 days",
+        "dailyTarget": 5,
+        "unit": "km",
+        "totalDays": 3,
+        "discountPercent": 20,
+        "expiresInSeconds": 172800,
+        "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+      },
+      "couponCode": "RUN20"
+    },
+    {
+      "id": "prod-34",
+      "name": "FlexDry Full-Zip Training Track Jacket",
+      "brandId": "b-movefit",
+      "brandName": "MoveFit Activewear",
+      "category": "sports-sportswear",
+      "categoryName": "Sports & Sportswear",
+      "subcategory": "Jackets & Hoodies",
+      "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2499,
+      "fitnessDiscountPercent": 20,
+      "fitnessRequirement": "Run 5 km per day for 3 days",
+      "activityType": "CYCLING",
+      "offerId": "off-4",
+      "rating": 4.8,
+      "reviewsCount": 97,
+      "stock": 35,
+      "sku": "MVF-TRK-34",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Tailored performance warm-up layer with thumbhole cuffs, chin guard zipper garage, and sweat-wicking brushed interior.",
+      "specs": {
+        "Material": "86% Poly, 14% Elastane",
+        "Fit": "Athletic Modern",
+        "Thumbholes": "Integrated"
+      },
+      "availableOfferIds": [
+        "off-run20",
+        "off-walk15",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-run20",
+        "couponCode": "RUN20",
+        "title": "3-Day Running Challenge",
+        "activityType": "RUNNING",
+        "activityIcon": "flame",
+        "requirementText": "Run 5 km per day for 3 days",
+        "dailyTarget": 5,
+        "unit": "km",
+        "totalDays": 3,
+        "discountPercent": 20,
+        "expiresInSeconds": 172800,
+        "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+      },
+      "couponCode": "RUN20"
+    },
+    {
+      "id": "prod-35",
+      "name": "SolGuard Carbon TR90 Polarized Sports Shades",
+      "brandId": "b-solguard",
+      "brandName": "SolGuard Optics",
+      "category": "accessories",
+      "categoryName": "Accessories",
+      "subcategory": "Eyewear",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2299,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-3",
+      "rating": 4.9,
+      "reviewsCount": 128,
+      "stock": 40,
+      "sku": "SOL-TR9-35",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Wraparound hydrophobic UV400 lenses eliminate glare while trail running or road biking. Non-slip hydrophilic rubber nose pads grip tighter as you sweat.",
+      "specs": {
+        "Lenses": "Tri-Acetate Polarized UV400",
+        "Frame": "Swiss TR90 Memory Polymer",
+        "Weight": "24 grams"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-36",
+      "name": "SpeedPro Ball-Bearing High-Speed Jump Rope",
+      "brandId": "b-gripzone",
+      "brandName": "GripZone Athletics",
+      "category": "accessories",
+      "categoryName": "Accessories",
+      "subcategory": "Fitness Accessories",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 899,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.8,
+      "reviewsCount": 240,
+      "stock": 85,
+      "sku": "GRP-JMP-36",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Dual 360-degree precision steel bearings ensure zero tangle and lightning speed for double-unders and high-intensity cardio conditioning.",
+      "specs": {
+        "Cable": "Steel wire coated in PU 3m (Adjustable)",
+        "Bearings": "Dual Precision 360 Swivel"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-37",
+      "name": "ErgoMind High-Density Orthopedic Lumbar Cushion",
+      "brandId": "b-ergomind",
+      "brandName": "ErgoMind Living",
+      "category": "home-lifestyle",
+      "categoryName": "Home & Lifestyle",
+      "subcategory": "Ergonomics",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1899,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-3",
+      "rating": 4.8,
+      "reviewsCount": 115,
+      "stock": 32,
+      "sku": "ERG-LMB-37",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Contours naturally to the lumbar spine to relieve lower back pressure during long desk hours. 3D breathable air-mesh cover with dual straps.",
+      "specs": {
+        "Core": "Slow-Rebound Memory Foam",
+        "Cover": "Removable Washable 3D Mesh",
+        "Straps": "Dual Adjustable Buckles"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-38",
+      "name": "SmartTemp Precision Controlled Coffee & Tea Mug",
+      "brandId": "b-ergomind",
+      "brandName": "ErgoMind Living",
+      "category": "home-lifestyle",
+      "categoryName": "Home & Lifestyle",
+      "subcategory": "Smart Drinkware",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 4999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.9,
+      "reviewsCount": 73,
+      "stock": 15,
+      "sku": "ERG-MUG-38",
+      "isFeatured": true,
+      "isTrending": false,
+      "description": "Set your exact beverage drinking temperature (50°C to 62°C) via LED touch bar or app. Keeps morning brew at peak flavor for 2 hours.",
+      "specs": {
+        "Capacity": "400 ml",
+        "Battery": "2 Hours off-coaster, all day on coaster",
+        "App": "Bluetooth Sync iOS/Android"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-39",
+      "name": "NutriVita Micronized Creatine Monohydrate 250g",
+      "brandId": "b-nutrivita",
+      "brandName": "NutriVita Organics",
+      "category": "health-wellness",
+      "categoryName": "Health & Wellness",
+      "subcategory": "Supplements",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 999,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "GYM",
+      "offerId": "off-5",
+      "rating": 4.9,
+      "reviewsCount": 350,
+      "stock": 90,
+      "sku": "NUT-CRT-39",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Ultra-pure 200 mesh micronized creatine powder that dissolves instantly in cold water. Increases phosphocreatine stores for explosive strength.",
+      "specs": {
+        "Purity": "99.9% Pure Creapure",
+        "Servings": "83 Servings (3g per serve)",
+        "Flavor": "Unflavored"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-40",
+      "name": "Organic KSM-66 Ashwagandha Stress & Sleep Gummies",
+      "brandId": "b-nutrivita",
+      "brandName": "NutriVita Organics",
+      "category": "health-wellness",
+      "categoryName": "Health & Wellness",
+      "subcategory": "Herbal Supplements",
+      "image": "https://images.unsplash.com/photo-1550572017-edb79984244b?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1199,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "STREAK",
+      "offerId": "off-2",
+      "rating": 4.8,
+      "reviewsCount": 185,
+      "stock": 55,
+      "sku": "NUT-ASH-40",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "Full-spectrum KSM-66 organic root extract paired with L-Theanine and chamomile in berry-flavored pectin gummies to calm cortisol and enhance sleep.",
+      "specs": {
+        "Count": "60 Vegan Gummies",
+        "Standardization": "5% Withanolides",
+        "Gelatin Free": "100% Pectin Based"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-41",
+      "name": "PowerIron Pro Cast Iron Kettlebell (16kg)",
+      "brandId": "b-poweriron",
+      "brandName": "PowerIron Labs",
+      "category": "fitness-products",
+      "categoryName": "Fitness Products",
+      "subcategory": "Strength Equipment",
+      "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 3299,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "CYCLING",
+      "offerId": "off-4",
+      "rating": 4.9,
+      "reviewsCount": 120,
+      "stock": 25,
+      "sku": "PWR-KTB-41",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "Single-piece solid casting with zero seams, welded handles, or weak spots. Matte powder coat holds chalk firmly for swing and snatch sets.",
+      "specs": {
+        "Weight": "16 kg (35 lbs)",
+        "Finish": "Matte Black Powder Coat",
+        "Handle Diameter": "38 mm"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-42",
+      "name": "GripZone 5-Level Heavy Latex Resistance Loop Band Suite",
+      "brandId": "b-gripzone",
+      "brandName": "GripZone Athletics",
+      "category": "fitness-products",
+      "categoryName": "Fitness Products",
+      "subcategory": "Resistance Training",
+      "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1299,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.8,
+      "reviewsCount": 290,
+      "stock": 70,
+      "sku": "GRP-BND-42",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "100% genuine Malaysian natural latex bands providing progressive resistance from 5 lbs up to 45 lbs. Includes waterproof carry pouch.",
+      "specs": {
+        "Bands Included": "5 Bands (X-Light to X-Heavy)",
+        "Material": "Natural Malaysian Eco Latex",
+        "Pouch": "Included"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-43",
+      "name": "GreenRoots Cold-Pressed Extra Virgin Olive Oil (1L)",
+      "brandId": "b-greenroots",
+      "brandName": "GreenRoots Superfoods",
+      "category": "grocery",
+      "categoryName": "Grocery & Essentials",
+      "subcategory": "Pantry Oils",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 1499,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.9,
+      "reviewsCount": 140,
+      "stock": 45,
+      "sku": "GRN-OLV-43",
+      "isFeatured": true,
+      "isTrending": false,
+      "description": "Single-estate Koroneiki olives cold-pressed within 4 hours of harvest. Polyphenol-rich with ultra-low acidity below 0.3%.",
+      "specs": {
+        "Volume": "1 Liter Dark Glass Bottle",
+        "Acidity": "< 0.3%",
+        "Harvest": "Single Estate 2026",
+        "Extraction": "Cold Extracted"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-44",
+      "name": "GreenRoots Organic Raw Black Chia Seeds (500g)",
+      "brandId": "b-greenroots",
+      "brandName": "GreenRoots Superfoods",
+      "category": "grocery",
+      "categoryName": "Grocery & Essentials",
+      "subcategory": "Seeds & Grains",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 499,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.8,
+      "reviewsCount": 215,
+      "stock": 110,
+      "sku": "GRN-CHI-44",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Packed with dietary fiber, plant-based Omega-3 ALA, and antioxidants. Perfect booster for pre-workout smoothies and overnight oats.",
+      "specs": {
+        "Net Weight": "500 grams",
+        "Purity": "99.9% Cleaned & Sortexed",
+        "Nutrients": "11g Fiber, 4g Protein per oz"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-45",
+      "name": "Classic Oxford Organic Cotton Button-Down Shirt",
+      "brandId": "b-urbanthreads",
+      "brandName": "Urban Threads",
+      "category": "fashion",
+      "categoryName": "Fashion",
+      "subcategory": "Shirts",
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2299,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "STREAK",
+      "offerId": "off-2",
+      "rating": 4.7,
+      "reviewsCount": 84,
+      "stock": 36,
+      "sku": "UBT-OXF-45",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Heavyweight basket-weave Oxford cloth woven from 100% GOTS organic cotton. Garment washed for soft lived-in drape and timeless button-down roll.",
+      "specs": {
+        "Material": "100% Organic Cotton",
+        "Collar": "Button Down Roll",
+        "Buttons": "Mother of Pearl"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-46",
+      "name": "SonicWave Studio Active ANC Over-Ear Headphones",
+      "brandId": "b-novatech",
+      "brandName": "NovaTech Audio",
+      "category": "electronics",
+      "categoryName": "Electronics",
+      "subcategory": "Audio & Headphones",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 7999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.9,
+      "reviewsCount": 260,
+      "stock": 18,
+      "sku": "NOV-STD-46",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "40mm custom beryllium drivers deliver immersive Hi-Res audio with adaptive multi-mode ANC and 50 hours of battery stamina.",
+      "specs": {
+        "Drivers": "40mm Custom Beryllium",
+        "Battery": "50 Hours ANC On",
+        "Hi-Res Audio": "LDAC / AAC / aptX"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-47",
+      "name": "PureClean Tea Tree Purifying Toner & BHA Exfoliant",
+      "brandId": "b-pureclean",
+      "brandName": "PureClean Botanical",
+      "category": "skincare-beauty",
+      "categoryName": "Skincare & Beauty",
+      "subcategory": "Toners",
+      "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-3",
+      "rating": 4.8,
+      "reviewsCount": 130,
+      "stock": 42,
+      "sku": "PUR-TTR-47",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "2% Salicylic acid combined with organic Australian tea tree extract gently clears clogged gym sweat pores and minimizes blackheads.",
+      "specs": {
+        "Volume": "150 ml",
+        "BHA Concentration": "2% Salicylic Acid",
+        "Alcohol Free": "100%"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-hiit18"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-48",
+      "name": "TrailMaster Carbon Trekking & Nordic Walking Poles",
+      "brandId": "b-trailmaster",
+      "brandName": "TrailMaster Footwear",
+      "category": "accessories",
+      "categoryName": "Accessories",
+      "subcategory": "Outdoor Gear",
+      "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 2799,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.9,
+      "reviewsCount": 85,
+      "stock": 28,
+      "sku": "TRM-POL-48",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Ultralight 100% 3K carbon fiber shafts with quick-lock flick levers and ergonomic natural cork grips that absorb hand perspiration.",
+      "specs": {
+        "Weight": "210g per pole",
+        "Lock": "Aluminum Quick Flick Lock",
+        "Grip": "Natural Sweat-Absorbing Cork"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-49",
+      "name": "AeroSprint Lightweight Track Spikes",
+      "brandId": "b-stepz",
+      "brandName": "Stepz Footwear",
+      "category": "footwear",
+      "categoryName": "Footwear",
+      "subcategory": "Track & Field",
+      "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 4299,
+      "fitnessDiscountPercent": 20,
+      "fitnessRequirement": "Run 5 km per day for 3 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.9,
+      "reviewsCount": 56,
+      "stock": 15,
+      "sku": "STP-SPK-49",
+      "isFeatured": false,
+      "isTrending": true,
+      "description": "Aerodynamic sprint spike plate with 6 removable pyramid spikes for 100m to 400m race day velocity.",
+      "specs": {
+        "Spike Configuration": "6-Pin Pebax",
+        "Weight": "135g",
+        "Upper": "VaporWeave Mesh"
+      },
+      "availableOfferIds": [
+        "off-run20",
+        "off-walk15",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-run20",
+        "couponCode": "RUN20",
+        "title": "3-Day Running Challenge",
+        "activityType": "RUNNING",
+        "activityIcon": "flame",
+        "requirementText": "Run 5 km per day for 3 days",
+        "dailyTarget": 5,
+        "unit": "km",
+        "totalDays": 3,
+        "discountPercent": 20,
+        "expiresInSeconds": 172800,
+        "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+      },
+      "couponCode": "RUN20"
+    },
+    {
+      "id": "prod-50",
+      "name": "GripZone Forearm & Hand Grip Strengthener Pro",
+      "brandId": "b-gripzone",
+      "brandName": "GripZone Athletics",
+      "category": "fitness-products",
+      "categoryName": "Fitness Products",
+      "subcategory": "Conditioning",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 799,
+      "fitnessDiscountPercent": 18,
+      "fitnessRequirement": "45-minute gym or workout session for 4 days",
+      "activityType": "GYM",
+      "offerId": "off-5",
+      "rating": 4.8,
+      "reviewsCount": 310,
+      "stock": 95,
+      "sku": "GRP-GRP-50",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "Adjustable mechanical resistance from 10kg to 60kg with built-in digital clicker counter.",
+      "specs": {
+        "Resistance": "10kg - 60kg Stepless",
+        "Counter": "Mechanical Clicker 0-99",
+        "Grip": "Ergonomic TPR"
+      },
+      "availableOfferIds": [
+        "off-hiit18",
+        "off-run20",
+        "off-walk15"
+      ],
+      "primaryOffer": {
+        "id": "off-hiit18",
+        "couponCode": "HIIT18",
+        "title": "4-Day Gym & HIIT Challenge",
+        "activityType": "GYM",
+        "activityIcon": "dumbbell",
+        "requirementText": "45-minute gym or workout session for 4 days",
+        "dailyTarget": 45,
+        "unit": "mins",
+        "totalDays": 4,
+        "discountPercent": 18,
+        "expiresInSeconds": 216000,
+        "description": "Crush your fitness sessions for 4 days to unlock an 18% discount coupon on sports, gear, and nutrition."
+      },
+      "couponCode": "HIIT18"
+    },
+    {
+      "id": "prod-51",
+      "name": "NovaTech ZenPad 11-inch AMOLED Smart Fitness Tablet",
+      "brandId": "b-novatech",
+      "brandName": "NovaTech Audio",
+      "category": "electronics",
+      "categoryName": "Electronics",
+      "subcategory": "Tablets & Displays",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 24999,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "RUNNING",
+      "offerId": "off-1",
+      "rating": 4.9,
+      "reviewsCount": 62,
+      "stock": 10,
+      "sku": "NOV-TAB-51",
+      "isFeatured": true,
+      "isTrending": true,
+      "description": "11-inch 120Hz 2.8K display with dedicated gym mount accessory and companion workout studio streaming.",
+      "specs": {
+        "Display": "11-inch 120Hz AMOLED 2.8K",
+        "Battery": "8600 mAh",
+        "Audio": "Quad Dolby Atmos Speakers"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-run20",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    },
+    {
+      "id": "prod-52",
+      "name": "Cold-Pressed Golden Flaxseed Oil (500ml)",
+      "brandId": "b-farmfresh",
+      "brandName": "FarmFresh Naturals",
+      "category": "grocery",
+      "categoryName": "Grocery & Essentials",
+      "subcategory": "Pantry Oils",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=700&q=80",
+      "originalPrice": 699,
+      "fitnessDiscountPercent": 15,
+      "fitnessRequirement": "5,000 steps per day for 5 days",
+      "activityType": "WALKING",
+      "offerId": "off-6",
+      "rating": 4.8,
+      "reviewsCount": 89,
+      "stock": 60,
+      "sku": "FRM-FLX-52",
+      "isFeatured": false,
+      "isTrending": false,
+      "description": "Unrefined cold-pressed golden flaxseed oil brimming with plant-based Omega-3 alpha-linolenic acid (ALA).",
+      "specs": {
+        "Volume": "500 ml Glass Bottle",
+        "Extraction": "Cold Expeller Pressed < 35°C",
+        "ALA": "7.5g per tbsp"
+      },
+      "availableOfferIds": [
+        "off-walk15",
+        "off-step10",
+        "off-cycle10"
+      ],
+      "primaryOffer": {
+        "id": "off-walk15",
+        "couponCode": "WALK15",
+        "title": "5-Day Walking Streak",
+        "activityType": "WALKING",
+        "activityIcon": "footprints",
+        "requirementText": "5,000 steps per day for 5 days",
+        "dailyTarget": 5000,
+        "unit": "steps",
+        "totalDays": 5,
+        "discountPercent": 15,
+        "expiresInSeconds": 259200,
+        "description": "Maintain a 5-day walking streak of 5,000+ steps to unlock a 15% discount coupon across all categories."
+      },
+      "couponCode": "WALK15"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Mohammad Rizwan",
+      "email": "customer@fitshop.com",
+      "role": "CUSTOMER",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "fitnessGoals": [
+        "Improve Stamina",
+        "Stay Active",
+        "Weight Loss"
+      ],
+      "preferredActivities": [
+        "Walking",
+        "Running",
+        "Cycling"
+      ],
+      "currentStreak": 50,
+      "longestStreak": 14,
+      "fitnessPoints": 5760,
+      "totalSaved": 9415,
+      "completedChallengesCount": 12,
+      "todaySteps": 32170,
+      "todayCalories": 1385,
+      "todayDistanceKm": 24.6,
+      "verifiedProvider": "Google Health Connect",
+      "unlockedOfferIds": [],
+      "addresses": [
+        {
+          "id": "addr-1",
+          "name": "Mohammad Rizwan",
+          "phone": "+91 98765 43210",
+          "street": "Flat 402, Skyline Residency, 12th Main Indiranagar",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "pincode": "560038",
+          "type": "Home",
+          "isDefault": true
+        }
+      ],
+      "unlockedCoupons": [
+        {
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "productId": "prod-1",
+          "offerId": "off-run20",
+          "unlockedAt": "2026-09-20T10:43:39.415954+00:00"
+        },
+        {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "productId": "prod-7",
+          "offerId": "off-walk15",
+          "unlockedAt": "2026-09-20T10:51:41.802515+00:00"
+        },
+        {
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "productId": "prod-2",
+          "offerId": "off-run20",
+          "unlockedAt": "2026-09-20T11:00:20.524091+00:00"
+        },
+        {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "productId": "prod-8",
+          "offerId": "off-walk15",
+          "unlockedAt": "2026-09-20T11:26:43.590285+00:00"
+        },
+        {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "productId": "prod-2",
+          "offerId": "off-walk15",
+          "unlockedAt": "2026-09-20T16:34:07.570793+00:00"
+        },
+        {
+          "couponCode": "CYCLE10",
+          "discountPercent": 10,
+          "productId": "prod-8",
+          "offerId": "off-cycle10",
+          "unlockedAt": "2026-09-21T06:05:43.303463+00:00"
+        },
+        {
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "productId": "prod-3",
+          "offerId": "off-run20",
+          "unlockedAt": "2026-09-21T06:47:26.094337+00:00"
+        },
+        {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "productId": "prod-5",
+          "offerId": "off-walk15",
+          "unlockedAt": "2026-09-21T06:55:17.824243+00:00"
+        }
+      ],
+      "appliedCoupons": {
+        "prod-1": {
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "appliedAt": "2026-09-20T10:46:23.072399+00:00"
+        },
+        "prod-7": {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "appliedAt": "2026-09-20T10:51:44.303217+00:00"
+        },
+        "prod-2": {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "appliedAt": "2026-09-20T16:35:40.708506+00:00"
+        },
+        "prod-8": {
+          "couponCode": "CYCLE10",
+          "discountPercent": 10,
+          "appliedAt": "2026-09-21T06:05:46.067848+00:00"
+        },
+        "prod-3": {
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "appliedAt": "2026-09-21T06:47:30.164220+00:00"
+        },
+        "prod-5": {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "appliedAt": "2026-09-21T06:55:20.211564+00:00"
+        }
+      },
+      "challenges": {
+        "prod-1_off-run20": {
+          "offerId": "off-run20",
+          "productId": "prod-1",
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "status": "UNLOCKED",
+          "dailyTarget": 5,
+          "unit": "km",
+          "totalDays": 3,
+          "daysCompleted": 3,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-20T10:46:16.818183+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-20T10:46:18.906463+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-20T10:46:20.994347+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-20T10:46:14.728672+00:00"
+        },
+        "prod-7_off-walk15": {
+          "offerId": "off-walk15",
+          "productId": "prod-7",
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "status": "UNLOCKED",
+          "dailyTarget": 5000,
+          "unit": "steps",
+          "totalDays": 5,
+          "daysCompleted": 5,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T10:51:30.164464+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T10:51:33.360846+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T10:51:37.477978+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T10:51:39.936627+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T10:51:41.802377+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-20T10:51:27.169055+00:00"
+        },
+        "prod-2_off-run20": {
+          "offerId": "off-run20",
+          "productId": "prod-2",
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "status": "UNLOCKED",
+          "dailyTarget": 5,
+          "unit": "km",
+          "totalDays": 3,
+          "daysCompleted": 3,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-20T11:00:14.812384+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-20T11:00:18.345650+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-20T11:00:20.524031+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-20T11:00:08.738523+00:00"
+        },
+        "prod-8_off-walk15": {
+          "offerId": "off-walk15",
+          "productId": "prod-8",
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "status": "UNLOCKED",
+          "dailyTarget": 5000,
+          "unit": "steps",
+          "totalDays": 5,
+          "daysCompleted": 5,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T11:26:34.268515+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T11:26:36.415811+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T11:26:39.002108+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T11:26:41.039227+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T11:26:43.590132+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-20T11:26:31.734720+00:00"
+        },
+        "prod-2_off-walk15": {
+          "offerId": "off-walk15",
+          "productId": "prod-2",
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "status": "UNLOCKED",
+          "dailyTarget": 5000,
+          "unit": "steps",
+          "totalDays": 5,
+          "daysCompleted": 5,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T16:33:54.121437+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T16:33:57.181479+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T16:34:00.427234+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T16:34:03.769915+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-20T16:34:07.567967+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-20T16:33:50.697804+00:00"
+        },
+        "prod-8_off-cycle10": {
+          "offerId": "off-cycle10",
+          "productId": "prod-8",
+          "couponCode": "CYCLE10",
+          "discountPercent": 10,
+          "status": "UNLOCKED",
+          "dailyTarget": 15,
+          "unit": "km",
+          "totalDays": 3,
+          "daysCompleted": 3,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 15,
+              "verifiedValue": 15.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T06:05:37.925395+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 15,
+              "verifiedValue": 15.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T06:05:39.855436+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 15,
+              "verifiedValue": 15.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T06:05:43.303319+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-21T06:05:35.806845+00:00"
+        },
+        "prod-3_off-run20": {
+          "offerId": "off-run20",
+          "productId": "prod-3",
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "status": "UNLOCKED",
+          "dailyTarget": 5,
+          "unit": "km",
+          "totalDays": 3,
+          "daysCompleted": 3,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T06:47:19.065261+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T06:47:23.724496+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T06:47:26.094221+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-21T06:47:16.810201+00:00"
+        },
+        "prod-5_off-walk15": {
+          "offerId": "off-walk15",
+          "productId": "prod-5",
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "status": "UNLOCKED",
+          "dailyTarget": 5000,
+          "unit": "steps",
+          "totalDays": 5,
+          "daysCompleted": 5,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T06:55:05.645912+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T06:55:09.477478+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T06:55:12.600158+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T06:55:15.335414+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T06:55:17.823958+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-21T06:55:02.995546+00:00"
+        }
+      }
+    },
+    {
+      "id": "usr-seller-1",
+      "name": "Vikram Malhotra",
+      "email": "seller@fitshop.com",
+      "role": "SELLER",
+      "brandId": "b-stepz",
+      "brandName": "Stepz Footwear",
+      "businessGst": "29AABCU9603R1ZX",
+      "phone": "+91 98111 22334",
+      "status": "APPROVED",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": "usr-admin-1",
+      "name": "FitShop Administrator",
+      "email": "admin@fitshop.com",
+      "role": "ADMIN",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80",
+      "challenges": {
+        "prod-8_off-walk15": {
+          "offerId": "off-walk15",
+          "productId": "prod-8",
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "status": "UNLOCKED",
+          "dailyTarget": 5000,
+          "unit": "steps",
+          "totalDays": 5,
+          "daysCompleted": 5,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T06:59:53.860037+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T06:59:56.688999+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T06:59:58.693080+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T07:00:02.037231+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T07:00:05.505932+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-21T06:59:51.629098+00:00"
+        },
+        "prod-5_off-walk15": {
+          "offerId": "off-walk15",
+          "productId": "prod-5",
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "status": "IN_PROGRESS",
+          "dailyTarget": 5000,
+          "unit": "steps",
+          "totalDays": 5,
+          "daysCompleted": 1,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "steps",
+              "requiredValue": 5000,
+              "verifiedValue": 5420,
+              "unit": "steps",
+              "timestamp": "2026-09-21T07:00:26.240230+00:00",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-21T07:00:24.340002+00:00"
+        }
+      },
+      "currentStreak": 10,
+      "fitnessPoints": 1420,
+      "unlockedCoupons": [
+        {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "productId": "prod-8",
+          "offerId": "off-walk15",
+          "unlockedAt": "2026-09-21T07:00:05.506149+00:00"
+        }
+      ],
+      "appliedCoupons": {
+        "prod-8": {
+          "couponCode": "WALK15",
+          "discountPercent": 15,
+          "appliedAt": "2026-09-21T07:00:07.637416+00:00"
+        }
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-2026-73257",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-21T06:47:37.309426+00:00",
+      "items": [
+        {
+          "productId": "prod-3",
+          "productName": "Pulse Pro ANC Wireless Earbuds",
+          "brandName": "NovaTech Audio",
+          "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80",
+          "price": 4499,
+          "discountPercent": 20,
+          "unlockedPrice": 3599,
+          "quantity": 1,
+          "fitnessOfferApplied": "5,000 steps per day for 5 days"
+        }
+      ],
+      "subtotal": 4499,
+      "fitnessSavings": 900,
+      "shipping": 0,
+      "total": 3599,
+      "paymentMethod": "UPI (Mock Processing)",
+      "status": "CONFIRMED",
+      "trackingNumber": "DELHIVERY-1789973257",
+      "estimatedDelivery": "Within 3-4 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Just now",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Processing",
+          "done": false
+        },
+        {
+          "status": "Shipped",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated 3-4 Days",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-03617",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-20T11:26:57.651347+00:00",
+      "items": [
+        {
+          "productId": "prod-8",
+          "productName": "Luxe Stretch Denim Jacket",
+          "brandName": "Urban Threads",
+          "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
+          "price": 3999,
+          "discountPercent": 15,
+          "unlockedPrice": 3399,
+          "quantity": 1,
+          "fitnessOfferApplied": "5,000 steps per day for 5 days"
+        }
+      ],
+      "subtotal": 3999,
+      "fitnessSavings": 600,
+      "shipping": 0,
+      "total": 3399,
+      "paymentMethod": "UPI (Mock Processing)",
+      "status": "CONFIRMED",
+      "trackingNumber": "DELHIVERY-1789903617",
+      "estimatedDelivery": "Within 3-4 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Just now",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Processing",
+          "done": false
+        },
+        {
+          "status": "Shipped",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated 3-4 Days",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-02042",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-20T11:00:42.591927+00:00",
+      "items": [
+        {
+          "productId": "prod-2",
+          "productName": "CloudGlide Daily Walking Sneakers",
+          "brandName": "Stepz Footwear",
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
+          "price": 3499,
+          "discountPercent": 20,
+          "unlockedPrice": 2799,
+          "quantity": 1,
+          "fitnessOfferApplied": "Run 5 km per day for 3 days"
+        }
+      ],
+      "subtotal": 3499,
+      "fitnessSavings": 700,
+      "shipping": 0,
+      "total": 2799,
+      "paymentMethod": "UPI (Mock Processing)",
+      "status": "CONFIRMED",
+      "trackingNumber": "DELHIVERY-1789902042",
+      "estimatedDelivery": "Within 3-4 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Just now",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Processing",
+          "done": false
+        },
+        {
+          "status": "Shipped",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated 3-4 Days",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-01510",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-20T10:51:50.316498+00:00",
+      "items": [
+        {
+          "productId": "prod-7",
+          "productName": "Breeze Pure Linen Casual Shirt",
+          "brandName": "Urban Threads",
+          "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+          "price": 2499,
+          "discountPercent": 15,
+          "unlockedPrice": 2124,
+          "quantity": 1,
+          "fitnessOfferApplied": "5,000 steps per day for 5 days"
+        }
+      ],
+      "subtotal": 2499,
+      "fitnessSavings": 375,
+      "shipping": 0,
+      "total": 2124,
+      "paymentMethod": "UPI (Mock Processing)",
+      "status": "CONFIRMED",
+      "trackingNumber": "DELHIVERY-1789901510",
+      "estimatedDelivery": "Within 3-4 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Just now",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Processing",
+          "done": false
+        },
+        {
+          "status": "Shipped",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated 3-4 Days",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-01185",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-20T10:46:25.111685+00:00",
+      "items": [
+        {
+          "productId": "prod-1",
+          "quantity": 1,
+          "product": {
+            "id": "prod-1",
+            "name": "Velocity Carbon-Plate Marathon Shoes",
+            "brandId": "b-stepz",
+            "brandName": "Stepz Footwear",
+            "category": "footwear",
+            "categoryName": "Footwear",
+            "subcategory": "Running Shoes",
+            "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+            "originalPrice": 4999,
+            "fitnessDiscountPercent": 20,
+            "fitnessRequirement": "Run 5 km per day for 3 days",
+            "activityType": "RUNNING",
+            "offerId": "off-1",
+            "rating": 4.9,
+            "reviewsCount": 248,
+            "stock": 35,
+            "sku": "STP-VCP-01",
+            "isFeatured": true,
+            "isTrending": true,
+            "description": "Engineered with dual-density nitrogen foam and a full-length curved carbon fiber propulsion plate for explosive race day energy return.",
+            "specs": {
+              "Weight": "198 grams",
+              "Drop": "8mm",
+              "Upper": "Engineered Mono-Mesh",
+              "Plate": "Full 3K Carbon Weave",
+              "Terrain": "Road & Track"
+            },
+            "availableOfferIds": [
+              "off-run20",
+              "off-walk15",
+              "off-cycle10"
+            ],
+            "primaryOffer": {
+              "id": "off-run20",
+              "couponCode": "RUN20",
+              "title": "3-Day Running Challenge",
+              "activityType": "RUNNING",
+              "activityIcon": "flame",
+              "requirementText": "Run 5 km per day for 3 days",
+              "dailyTarget": 5,
+              "unit": "km",
+              "totalDays": 3,
+              "discountPercent": 20,
+              "expiresInSeconds": 172800,
+              "description": "Record a verified 5 km run for 3 days with your fitness provider to unlock a 20% discount coupon."
+            },
+            "couponCode": "RUN20"
+          },
+          "appliedCoupon": {
+            "couponCode": "RUN20",
+            "discountPercent": 20,
+            "savings": 1000
+          }
+        }
+      ],
+      "subtotal": 4999,
+      "fitnessSavings": 1000,
+      "shipping": 0,
+      "total": 3999,
+      "paymentMethod": "UPI (fitshop@okhdfcbank)",
+      "status": "CONFIRMED",
+      "trackingNumber": "DELHIVERY-1789901185",
+      "estimatedDelivery": "Within 3-4 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Just now",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Processing",
+          "done": false
+        },
+        {
+          "status": "Shipped",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated 3-4 Days",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-01052",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-20T10:44:12.359654+00:00",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Velocity Carbon-Plate Marathon Shoes",
+          "brandName": "Stepz Footwear",
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+          "price": 4999,
+          "discountPercent": 20,
+          "unlockedPrice": 3999,
+          "quantity": 3,
+          "fitnessOfferApplied": "Run 5 km per day for 3 days"
+        }
+      ],
+      "subtotal": 14997,
+      "fitnessSavings": 3000,
+      "shipping": 0,
+      "total": 11997,
+      "paymentMethod": "UPI (Mock Processing)",
+      "status": "CONFIRMED",
+      "trackingNumber": "DELHIVERY-1789901052",
+      "estimatedDelivery": "Within 3-4 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Just now",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Processing",
+          "done": false
+        },
+        {
+          "status": "Shipped",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated 3-4 Days",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-00836",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-20T10:40:36.494768+00:00",
+      "items": [
+        {
+          "productId": "prod-2",
+          "productName": "CloudGlide Daily Walking Sneakers",
+          "brandName": "Stepz Footwear",
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
+          "price": 3499,
+          "discountPercent": 20,
+          "unlockedPrice": 2799,
+          "quantity": 1,
+          "fitnessOfferApplied": "5-Day Walking Streak"
+        }
+      ],
+      "subtotal": 3499,
+      "fitnessSavings": 0,
+      "shipping": 0,
+      "total": 3499,
+      "paymentMethod": "UPI (Mock Processing)",
+      "status": "CONFIRMED",
+      "trackingNumber": "DELHIVERY-1789900836",
+      "estimatedDelivery": "Within 3-4 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Just now",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Processing",
+          "done": false
+        },
+        {
+          "status": "Shipped",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated 3-4 Days",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-8941",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-18T10:30:00Z",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Velocity Carbon-Plate Marathon Shoes",
+          "brandName": "Stepz Footwear",
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=150&q=80",
+          "price": 4999,
+          "discountPercent": 15,
+          "unlockedPrice": 4249,
+          "quantity": 1,
+          "fitnessOfferApplied": "5 km Running Sprint Unlock"
+        }
+      ],
+      "subtotal": 4999,
+      "fitnessSavings": 750,
+      "shipping": 0,
+      "total": 4249,
+      "paymentMethod": "UPI (fitshop@okhdfcbank)",
+      "status": "SHIPPED",
+      "trackingNumber": "DELHIVERY-948271034",
+      "estimatedDelivery": "2026-09-22",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Sep 18, 10:32 AM",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Sep 18, 04:15 PM",
+          "done": true
+        },
+        {
+          "status": "Shipped",
+          "time": "Sep 19, 09:00 AM",
+          "done": true
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated Sep 22",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-7712",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-12T14:20:00Z",
+      "items": [
+        {
+          "productId": "prod-15",
+          "productName": "NutriVita 100% Plant Protein Powder (Chocolate 1kg)",
+          "brandName": "NutriVita Organics",
+          "image": "https://images.unsplash.com/photo-1579722820308-d74e571900a9?auto=format&fit=crop&w=150&q=80",
+          "price": 2999,
+          "discountPercent": 12,
+          "unlockedPrice": 2639,
+          "quantity": 1,
+          "fitnessOfferApplied": "30,000 Total Steps Challenge"
+        }
+      ],
+      "subtotal": 2999,
+      "fitnessSavings": 360,
+      "shipping": 0,
+      "total": 2639,
+      "paymentMethod": "Credit Card (ending 4242)",
+      "status": "DELIVERED",
+      "trackingNumber": "BLUEDART-883920141",
+      "estimatedDelivery": "2026-09-15",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Sep 12, 02:22 PM",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Sep 12, 06:10 PM",
+          "done": true
+        },
+        {
+          "status": "Shipped",
+          "time": "Sep 13, 08:30 AM",
+          "done": true
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Sep 15, 10:15 AM",
+          "done": true
+        },
+        {
+          "status": "Delivered",
+          "time": "Sep 15, 02:40 PM",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "sellerApplications": [
+    {
+      "id": "app-101",
+      "brandName": "Kura Hydration",
+      "ownerName": "Ananya Sharma",
+      "email": "ananya@kurawater.com",
+      "phone": "+91 99887 76655",
+      "category": "Accessories",
+      "description": "Electrolyte balance smart water bottles and organic effervescent hydration tablets.",
+      "gst": "27AAECK1234D1Z2",
+      "appliedDate": "2026-09-19",
+      "status": "PENDING"
+    },
+    {
+      "id": "app-102",
+      "brandName": "Apex Trail Gear",
+      "ownerName": "Rohan Deshmukh",
+      "email": "rohan@apextrail.in",
+      "phone": "+91 98220 11223",
+      "category": "Sports & Sportswear",
+      "description": "Ultralight trail running vests, hydration flasks, and carbon trekking poles.",
+      "gst": "27BBEFA9876C1Z8",
+      "appliedDate": "2026-09-18",
+      "status": "PENDING"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-1",
+      "userName": "Karan V.",
+      "rating": 5,
+      "date": "2026-09-14",
+      "comment": "Completed a 5 km run on Sunday and immediately unlocked ₹750 off on these shoes. The carbon plate propulsion is unmatched. FitShop is revolutionary!",
+      "verifiedPurchase": true,
+      "fitnessVerified": true
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-3",
+      "userName": "Pooja Hegde",
+      "rating": 5,
+      "date": "2026-09-12",
+      "comment": "Super snug wingtip fit for sprints, crisp noise cancellation. Unlocking the 15% discount through my morning run felt so rewarding!",
+      "verifiedPurchase": true,
+      "fitnessVerified": true
+    }
+  ]
+}
