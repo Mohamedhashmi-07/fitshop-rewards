@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITSHOP | Move More. Pay Less. — The Multi-Category Fitness-Powered Marketplace</title>
+  <meta name="description" content="FitShop connects verified physical activities directly to tangible discounts across Fashion, Tech, Beauty, Footwear, Sports, and Daily Essentials. Move More. Pay Less.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FF4D5A'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              950: '#070D1E',
+              900: '#0B132B',
+              800: '#0F172A',
+              700: '#1E293B',
+              600: '#334155',
+              500: '#475569',
+              100: '#F1F5F9',
+              50: '#F8FAFC'
+            },
+            coral: {
+              500: '#FF4D5A',
+              600: '#E63946',
+              700: '#D90429',
+              100: '#FFE5E7',
+              50: '#FFF0F2'
+            },
+            emerald: {
+              500: '#10B981',
+              600: '#059669',
+              100: '#D1FAE5'
+            },
+            amber: {
+              500: '#F59E0B',
+              600: '#D97706',
+              100: '#FEF3C7'
+            }
+          },
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- External Icons, Chart.js, Confetti -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body class="bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col selection:bg-coral-500 selection:text-white">
+
+  <!-- TOP EVALUATION & DEMO ROLE SWITCHER BAR -->
+  <aside aria-label="Demo Bar" class="bg-navy-950 text-xs text-slate-300 border-b border-slate-800 py-1.5 px-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-coral-500 text-white tracking-wider uppercase">Demo Mode</span>
+        <span class="text-slate-400 hidden sm:inline">Active Persona:</span>
+        <div class="flex items-center gap-1 bg-navy-900 rounded-lg p-0.5 border border-slate-700">
+          <button id="role-customer-btn" onclick="FitStore.setRole('CUSTOMER')" class="px-2.5 py-1 rounded text-xs font-semibold transition-all bg-coral-500 text-white shadow-sm flex items-center gap-1">
+            <i data-lucide="user" class="w-3 h-3"></i> Customer
+          </button>
+          <button id="role-seller-btn" onclick="FitStore.setRole('SELLER')" class="px-2.5 py-1 rounded text-xs font-semibold transition-all text-slate-300 hover:text-white hover:bg-slate-800 flex items-center gap-1">
+            <i data-lucide="store" class="w-3 h-3"></i> Seller Portal
+          </button>
+          <button id="role-admin-btn" onclick="FitStore.setRole('ADMIN')" class="px-2.5 py-1 rounded text-xs font-semibold transition-all text-slate-300 hover:text-white hover:bg-slate-800 flex items-center gap-1">
+            <i data-lucide="shield-check" class="w-3 h-3"></i> Admin
+          </button>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <!-- Live Streak Flame Badge -->
+        <div id="top-streak-badge" class="flex items-center gap-1.5 px-2.5 py-0.5 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-400 font-bold text-xs cursor-pointer" onclick="FitStore.navigate('/fitness-rewards')">
+          <span class="flame-anim">🔥</span> <span id="top-streak-count">4 Days Streak</span>
+        </div>
+
+        <!-- Activity Simulator Trigger Button -->
+        <button onclick="FitComponents.openSimulatorModal()" class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500 hover:bg-emerald-600 text-white flex items-center gap-1 transition-all shadow-sm">
+          <i data-lucide="zap" class="w-3.5 h-3.5"></i> Simulate Activity Verification
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN NAVIGATION HEADER (LIGHT CLEAN AESTHETIC) -->
+  <header id="main-header" class="bg-white/95 backdrop-blur-md text-slate-800 sticky top-[37px] z-40 border-b border-slate-200/80 shadow-sm transition-all duration-200">
+    <!-- Rendered dynamically by FitComponents.renderNavbar() -->
+  </header>
+
+  <!-- MAIN CONTENT CONTAINER (SPA ROUTER TARGET) -->
+  <main id="app" class="flex-grow">
+    <!-- Dynamically loaded pages: Home, Shop, Category, Brands, FitnessRewards, ProductDetail, Cart, Checkout, Orders, Profile, Seller, Admin -->
+    <div class="flex items-center justify-center min-h-[60vh]">
+      <div class="flex flex-col items-center gap-3">
+        <div class="w-10 h-10 border-4 border-coral-500 border-t-transparent rounded-full animate-spin"></div>
+        <p class="text-sm font-semibold text-slate-500">Loading FITSHOP...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer id="main-footer" class="bg-navy-900 text-slate-400 border-t border-slate-800 mt-auto">
+    <!-- Rendered dynamically by FitComponents.renderFooter() -->
+  </footer>
+
+  <!-- MOBILE BOTTOM NAVIGATION (Fixed for mobile shoppers) -->
+  <nav aria-label="Mobile Navigation" id="mobile-nav" class="md:hidden fixed bottom-0 left-0 right-0 bg-navy-950/95 backdrop-blur-md border-t border-slate-800 py-2 px-4 z-40 flex items-center justify-around text-slate-400">
+    <button onclick="FitStore.navigate('/')" class="flex flex-col items-center gap-0.5 text-[11px] font-medium hover:text-white mobile-nav-btn" data-path="/">
+      <i data-lucide="home" class="w-5 h-5"></i>
+      <span>Home</span>
+    </button>
+    <button onclick="FitStore.navigate('/shop')" class="flex flex-col items-center gap-0.5 text-[11px] font-medium hover:text-white mobile-nav-btn" data-path="/shop">
+      <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+      <span>Shop</span>
+    </button>
+    <button onclick="FitStore.navigate('/fitness-rewards')" class="flex flex-col items-center gap-0.5 text-[11px] font-medium hover:text-white mobile-nav-btn relative" data-path="/fitness-rewards">
+      <span class="absolute -top-1 right-2 w-2 h-2 bg-coral-500 rounded-full animate-ping"></span>
+      <i data-lucide="flame" class="w-5 h-5 text-amber-400"></i>
+      <span class="text-amber-400 font-bold">Rewards</span>
+    </button>
+    <button onclick="FitStore.navigate('/wishlist')" class="flex flex-col items-center gap-0.5 text-[11px] font-medium hover:text-white mobile-nav-btn relative" data-path="/wishlist">
+      <i data-lucide="heart" class="w-5 h-5"></i>
+      <span>Wishlist</span>
+    </button>
+    <button onclick="FitStore.navigate('/cart')" class="flex flex-col items-center gap-0.5 text-[11px] font-medium hover:text-white mobile-nav-btn relative" data-path="/cart">
+      <span id="mobile-cart-badge" class="absolute -top-1 right-2 w-4 h-4 bg-coral-500 text-white rounded-full text-[9px] font-bold flex items-center justify-center">0</span>
+      <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+      <span>Cart</span>
+    </button>
+    <button onclick="FitStore.navigate('/profile')" class="flex flex-col items-center gap-0.5 text-[11px] font-medium hover:text-white mobile-nav-btn" data-path="/profile">
+      <i data-lucide="user" class="w-5 h-5"></i>
+      <span>Profile</span>
+    </button>
+  </nav>
+
+  <!-- ACTIVITY VERIFICATION SIMULATOR MODAL -->
+  <div id="simulator-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-overlay">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-100 relative animate-in fade-in zoom-in-95 duration-200">
+      <button onclick="FitComponents.closeSimulatorModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 p-1 rounded-full hover:bg-slate-100">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center">
+          <i data-lucide="activity" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold font-heading text-navy-900">Fitness Activity Simulator</h3>
+          <p class="text-xs text-slate-500">Test real-time activity verification & instant discount unlocking</p>
+        </div>
+      </div>
+
+      <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200 mb-5">
+        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Connected Fitness Provider (Mock API)</label>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
+          <label class="border rounded-lg p-2 bg-white flex flex-col items-center cursor-pointer border-emerald-500 shadow-sm">
+            <input type="radio" name="provider" value="Google Health Connect" checked class="sr-only">
+            <span class="font-bold text-slate-800">Health Connect</span>
+            <span class="text-[10px] text-emerald-600 font-medium">● Connected</span>
+          </label>
+          <label class="border rounded-lg p-2 bg-white flex flex-col items-center cursor-pointer hover:border-slate-400">
+            <input type="radio" name="provider" value="Apple Health" class="sr-only">
+            <span class="font-bold text-slate-800">Apple Health</span>
+            <span class="text-[10px] text-slate-400">Ready</span>
+          </label>
+          <label class="border rounded-lg p-2 bg-white flex flex-col items-center cursor-pointer hover:border-slate-400">
+            <input type="radio" name="provider" value="Fitbit" class="sr-only">
+            <span class="font-bold text-slate-800">Fitbit</span>
+            <span class="text-[10px] text-slate-400">Ready</span>
+          </label>
+          <label class="border rounded-lg p-2 bg-white flex flex-col items-center cursor-pointer hover:border-slate-400">
+            <input type="radio" name="provider" value="Garmin" class="sr-only">
+            <span class="font-bold text-slate-800">Garmin</span>
+            <span class="text-[10px] text-slate-400">Ready</span>
+          </label>
+        </div>
+      </div>
+
+      <p class="text-xs font-bold text-slate-600 mb-2.5 uppercase tracking-wide">Select an Activity to Simulate & Verify:</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-6">
+        <button onclick="FitStore.verifyActivityAction('RUNNING', 5, 'km')" class="p-3.5 rounded-xl border border-slate-200 bg-white hover:border-coral-500 hover:bg-coral-50/50 text-left transition-all group flex items-start gap-3">
+          <span class="p-2 rounded-lg bg-coral-100 text-coral-600 group-hover:bg-coral-500 group-hover:text-white transition-all"><i data-lucide="flame" class="w-5 h-5"></i></span>
+          <div>
+            <div class="text-sm font-bold text-slate-800 group-hover:text-coral-600">🏃 5 km Running</div>
+            <div class="text-[11px] text-slate-500">Unlocks 15% OFF across Running shoes, Earbuds, Tees</div>
+          </div>
+        </button>
+
+        <button onclick="FitStore.verifyActivityAction('STREAK', 5, 'days')" class="p-3.5 rounded-xl border border-slate-200 bg-white hover:border-amber-500 hover:bg-amber-50/50 text-left transition-all group flex items-start gap-3">
+          <span class="p-2 rounded-lg bg-amber-100 text-amber-600 group-hover:bg-amber-500 group-hover:text-white transition-all"><i data-lucide="zap" class="w-5 h-5"></i></span>
+          <div>
+            <div class="text-sm font-bold text-slate-800 group-hover:text-amber-600">🔥 5-Day Walking Streak</div>
+            <div class="text-[11px] text-slate-500">Unlocks 20% OFF on Skincare, Footwear, Smart Lamps</div>
+          </div>
+        </button>
+
+        <button onclick="FitStore.verifyActivityAction('WALKING', 30000, 'steps')" class="p-3.5 rounded-xl border border-slate-200 bg-white hover:border-emerald-500 hover:bg-emerald-50/50 text-left transition-all group flex items-start gap-3">
+          <span class="p-2 rounded-lg bg-emerald-100 text-emerald-600 group-hover:bg-emerald-500 group-hover:text-white transition-all"><i data-lucide="footprints" class="w-5 h-5"></i></span>
+          <div>
+            <div class="text-sm font-bold text-slate-800 group-hover:text-emerald-600">🚶 30,000 Total Steps</div>
+            <div class="text-[11px] text-slate-500">Unlocks 12% OFF on Protein Powders, Denim, Matcha</div>
+          </div>
+        </button>
+
+        <button onclick="FitStore.verifyActivityAction('CYCLING', 15, 'km')" class="p-3.5 rounded-xl border border-slate-200 bg-white hover:border-blue-500 hover:bg-blue-50/50 text-left transition-all group flex items-start gap-3">
+          <span class="p-2 rounded-lg bg-blue-100 text-blue-600 group-hover:bg-blue-500 group-hover:text-white transition-all"><i data-lucide="bike" class="w-5 h-5"></i></span>
+          <div>
+            <div class="text-sm font-bold text-slate-800 group-hover:text-blue-600">🚴 15 km Cycling Ride</div>
+            <div class="text-[11px] text-slate-500">Unlocks 15% OFF on Smartwatches, 4K Cameras, Mats</div>
+          </div>
+        </button>
+      </div>
+
+      <div class="flex items-center justify-between pt-3 border-t border-slate-100 text-xs text-slate-500">
+        <span class="flex items-center gap-1.5"><i data-lucide="info" class="w-3.5 h-3.5 text-slate-400"></i> Simulates verified health sensor feedback</span>
+        <button onclick="FitComponents.closeSimulatorModal()" class="font-semibold text-slate-700 hover:underline">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FITNESS CHALLENGE & COUPON UNLOCK MODAL CONTAINER -->
+  <div id="challenge-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm modal-overlay">
+  </div>
+
+  <!-- AUTHENTICATION & FITNESS ONBOARDING MODAL -->
+  <div id="auth-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-overlay">
+    <!-- Populated dynamically by FitComponents.renderAuthModal() -->
+  </div>
+
+  <!-- LOGOUT CONFIRMATION MODAL -->
+  <div id="logout-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm modal-overlay">
+  </div>
+
+  <!-- TOAST NOTIFICATIONS WRAPPER -->
+  <div id="toast-container"></div>
+
+  <!-- MAIN VITE BUNDLE -->
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
