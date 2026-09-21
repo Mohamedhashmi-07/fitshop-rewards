@@ -760,7 +760,7 @@
       "offerId": "off-3",
       "rating": 4.8,
       "reviewsCount": 77,
-      "stock": 18,
+      "stock": 17,
       "sku": "UBT-DNM-08",
       "isFeatured": false,
       "isTrending": true,
@@ -855,7 +855,7 @@
       "offerId": "off-1",
       "rating": 4.8,
       "reviewsCount": 178,
-      "stock": 42,
+      "stock": 41,
       "sku": "MVF-FDC-10",
       "isFeatured": false,
       "isTrending": true,
@@ -2890,10 +2890,10 @@
         "Running",
         "Cycling"
       ],
-      "currentStreak": 50,
+      "currentStreak": 53,
       "longestStreak": 14,
-      "fitnessPoints": 5760,
-      "totalSaved": 9415,
+      "fitnessPoints": 6060,
+      "totalSaved": 10255,
       "completedChallengesCount": 12,
       "todaySteps": 32170,
       "todayCalories": 1385,
@@ -2969,6 +2969,13 @@
           "productId": "prod-5",
           "offerId": "off-walk15",
           "unlockedAt": "2026-09-21T06:55:17.824243+00:00"
+        },
+        {
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "productId": "prod-10",
+          "offerId": "off-run20",
+          "unlockedAt": "2026-09-21T09:06:05.369Z"
         }
       ],
       "appliedCoupons": {
@@ -3001,6 +3008,11 @@
           "couponCode": "WALK15",
           "discountPercent": 15,
           "appliedAt": "2026-09-21T06:55:20.211564+00:00"
+        },
+        "prod-10": {
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "appliedAt": "2026-09-21T09:06:09.086Z"
         }
       },
       "challenges": {
@@ -3403,6 +3415,47 @@
             }
           ],
           "startedAt": "2026-09-21T06:55:02.995546+00:00"
+        },
+        "prod-10_off-run20": {
+          "offerId": "off-run20",
+          "productId": "prod-10",
+          "couponCode": "RUN20",
+          "discountPercent": 20,
+          "status": "UNLOCKED",
+          "dailyTarget": 5,
+          "unit": "km",
+          "totalDays": 3,
+          "daysCompleted": 3,
+          "dailyVerifications": [
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T09:06:00.946Z",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T09:06:03.369Z",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            },
+            {
+              "verified": true,
+              "activity": "km",
+              "requiredValue": 5,
+              "verifiedValue": 5.2,
+              "unit": "km",
+              "timestamp": "2026-09-21T09:06:05.369Z",
+              "provider": "MockFitnessProvider (Ready for Google Health Connect / Apple Health)"
+            }
+          ],
+          "startedAt": "2026-09-21T09:05:59.090Z"
         }
       }
     },
@@ -3529,6 +3582,71 @@
     }
   ],
   "orders": [
+    {
+      "id": "ORD-2026-81579",
+      "customerId": "usr-1",
+      "customerName": "Mohammad Rizwan",
+      "date": "2026-09-21T09:06:19.598Z",
+      "items": [
+        {
+          "productId": "prod-8",
+          "productName": "Luxe Stretch Denim Jacket",
+          "brandName": "Urban Threads",
+          "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
+          "price": 3999,
+          "discountPercent": 10,
+          "unlockedPrice": 3599,
+          "quantity": 1,
+          "fitnessOfferApplied": "5,000 steps per day for 5 days"
+        },
+        {
+          "productId": "prod-10",
+          "productName": "FlexDry High-Waist Compression Tights",
+          "brandName": "MoveFit Activewear",
+          "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=700&q=80",
+          "price": 2199,
+          "discountPercent": 20,
+          "unlockedPrice": 1759,
+          "quantity": 1,
+          "fitnessOfferApplied": "Run 5 km per day for 3 days"
+        }
+      ],
+      "subtotal": 6198,
+      "fitnessSavings": 840,
+      "shipping": 0,
+      "total": 5358,
+      "paymentMethod": "UPI (Mock Processing)",
+      "status": "CONFIRMED",
+      "trackingNumber": "DELHIVERY-1789981579598",
+      "estimatedDelivery": "Within 3-4 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "time": "Just now",
+          "done": true
+        },
+        {
+          "status": "Packed",
+          "time": "Processing",
+          "done": false
+        },
+        {
+          "status": "Shipped",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Out for Delivery",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Estimated 3-4 Days",
+          "done": false
+        }
+      ]
+    },
     {
       "id": "ORD-2026-73257",
       "customerId": "usr-1",
